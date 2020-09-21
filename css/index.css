@@ -1,0 +1,254 @@
+/* BOOT */
+:root {
+	font-size: 16px;
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	--text-primary:#96858F;
+	--text-secondary:#6D7993;
+	--text-card:#9099A2;
+	--text-header: #000;
+	--text-card-2:#D5D5D5;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	max-height: 100%;
+	/* background:black; */
+	/* overflow-x: hidden; */
+}
+
+body{
+	overflow-x: hidden !important;
+	background-color: var(--text-card-2);
+	overflow-x: hidden;	
+	-ms-overflow-x: hidden;
+}
+
+.container{
+	max-width: 1280px;
+	padding:0 2%;
+	margin:0 auto;
+}
+
+.w50{width: 50%;}
+.left{float: left;}
+.right{float: right;}
+
+.clearfix{clear: both;}
+
+/*==========================================*/
+/* NAV-MENU */
+.mobile{
+	display: none;
+	width: 100%;
+	text-align: right;
+	top: -20px;
+	margin-bottom: -20px;
+}
+
+header{
+	padding:15px 0;
+	background: var(--text-header);
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+.logo a{
+	text-decoration: none;
+	color:#fff; 
+}
+
+.logo a:hover, header a:hover{opacity: .8;}
+
+nav{position: relative;}
+nav.desktop ul{list-style-type: none;}
+nav.desktop li{
+	margin: 0 20px;
+	display: inline-block;
+}
+
+nav.desktop a{
+	/*position: relative;*/
+    text-decoration: none;
+    color: white;
+}
+
+nav #marker{
+    position: absolute;
+    left: 0;
+    height: 2px;
+    bottom: -2px;
+    width: 0; 
+    background: white;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.botao-menu-mobile{
+	font-size: 24px;
+	cursor: pointer;
+	color: white;
+}
+
+.mobile ul{
+	top:40px;
+	z-index: 999;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	display: none;
+	text-align: center;
+}
+
+.mobile li{
+	font-weight: 300;
+	width: 100%;
+	max-width: 700px;
+	display: block;
+	background: white;
+	border-bottom:1px solid #ccc;
+	font-size: 17px;
+	padding:8px 0;
+}
+.mobile li a{
+	display: block;
+	color: #444;
+	text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+background: var(--text-primary);
+}
+
+/* Sobre mim */
+.sobre-mim{
+	/* padding-top: 20px; */
+	color: black;
+	background-color: #f1f1f1;
+	/* background-image: url('images/bg.jpg'); */
+	background-size: 100% 100%; /*1280 450*/
+	background-position: 90% 90%;
+	min-width: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+	
+}
+
+/* SOBRE MIM PERFIL */
+.container2{
+	position: relative;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 3px solid black; */
+	-webkit-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.5);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 0 15px;
+	height: 100%;
+	/* opacity: 0.8; */
+}
+
+.left-side {
+	position: relative;
+	width: 300px;
+}
+
+.left-side img {
+	width: 100%;
+	height: 100%;
+}
+
+.right-side {
+	position: relative;
+	width: 300px;
+	margin-top: 28px;
+	margin-left: 30px;
+}
+
+.right-side h2 {
+	position: relative;
+	/* margin-top: -200px; */
+	/* margin-top: -100px; */
+	font-size: 20px;
+	font-weight: 600px;
+	color: rgba(0,0,0,0.2);
+	text-transform: uppercase;
+}
+
+.right-side .name {
+	width: 100%;
+	max-width: 350px;
+	height: 50px;
+	background:#fff;
+	box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.15);
+	margin-bottom: 20px;
+	/* margin-left: -100px;
+	margin-bottom: 30px; */
+}
+
+.right-side .name h1 {
+	padding: 10px 10px;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(0,0,0,0.5);
+	text-transform: uppercase;
+}
+
+.right-side span {
+	display: block;
+	margin-bottom: 20px;
+	width:80px;
+	height:3px;
+	background:var(--text-secondary);
+}
+
+.sobre-mim-desc {
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(0,0,0,0.8);
+}
+
+.icons {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.icons .fab {
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	color:#000;
+	font-size: 20px;
+}
+
+.icons .fab:hover {
+	background:#000;
+	color:#fff;
+	transition: 0.5s;
+	cursor: pointer;
+}
