@@ -34,11 +34,12 @@
 
     .desktop{display: none;}
     .mobile{display: block;}
-
-    header .logo{
-		position: relative;
-		top: 5px;
+    .logo a{top: 6px;}
+    .botao-menu-mobile i{
+        position: relative;
+        top: -5px;
     }
+
 }
 
 @media screen and (max-width: 750px){
