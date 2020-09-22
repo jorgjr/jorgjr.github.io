@@ -15,3 +15,15 @@ $('nav.mobile').click(function(){
         listaMenu.slideToggle();
     }
 })
+
+//========================================================
+// LIGHTBOX
+lightbox.option({
+    'resizeDuration': 150,
+    'wrapAround': true,
+    'albumLabel': "Imagem %1 of %2",
+    'disableScrolling': true,
+    'fitImagesInViewport': true,
+    'positionFromTop': 110,
+
+})

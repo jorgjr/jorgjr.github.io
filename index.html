@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 
 	<title>Jorge Almeida Jr.</title>
@@ -28,7 +29,7 @@
 	<nav class="desktop right">
 		<ul>
 			<div id="marker"></div><!--marker-->
-			<li><a title="Sobre mim" href="index.html">Sobre mim</a></li>
+			<li><a title="Sobre mim" href="#sobremin">Sobre mim</a></li>
 			<li><a title="Portfolio" href="#portfolio">Portfolio</a></li>
 		</ul>
 	</nav>
@@ -37,7 +38,7 @@
 	 		<i class="fa fa-bars" aria-hidden="true"></i>
 	 	</div>
 		<ul>
-			<li><a title="Sobre mim" href="index.html">Sobre mim</a></li>
+			<li><a title="Sobre mim" href="#sobremin">Sobre mim</a></li>
 			<li><a title="Portfolio" href="#portfolio">Portfolio</a></li>
 		</ul>
 	</nav>
@@ -46,7 +47,7 @@
 </header>
 
 
-<section style="background-image: url('images/bg.jpg');" class="sobre-mim">
+<section style="background-image: url('images/bg.jpg');" class="sobre-mim" id="sobremin">
     <div class="container container2">
         <div class="left-side">
             <img src="images/joojs.jpg" alt="Foto do perfil">
@@ -65,59 +66,75 @@
             cursus. Phasellus feugiat enim lectus, ac accumsan sapien bibendum lobortis.</p>
 
             <div class="icons">
-                <a href="https://www.facebook.com/JooMaciiel" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://www.linkedin.com/in/joomaciiel/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/joomaciiel/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                 <a href="https://github.com/joomaciiel" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container">
-	        <!-- START THE FEATURETTES -->
+<span class="separador" id="portfolio"></span>
+<section class="container" >
+	<!-- START THE FEATURETTES -->
 
-			<hr class="featurette-divider">
+	<!-- <hr class="featurette-divider"> -->
+	<br /><br />
 
-			<div class="row featurette">
-			  <div class="col-md-7">
-				<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-			  </div>
-			  <div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-			  </div>
-			</div>
-	
-			<hr class="featurette-divider">
-	
-			<div class="row featurette">
-			  <div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-			  </div>
-			  <div class="col-md-5 order-md-1">
-				<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-			  </div>
-			</div>
-	
-			<hr class="featurette-divider">
-	
-			<div class="row featurette">
-			  <div class="col-md-7">
-				<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-			  </div>
-			  <div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-			  </div>
-			</div>
-	
-			<hr class="featurette-divider">
-	
-			<!-- /END THE FEATURETTES -->
+	<div class="row featurette">
+		<div class="col-md-7">
+		<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+		<div class="col-md-5">
+		<img class="featurette-image img-fluid mx-auto" src="images/joojs.jpg" alt="Generic placeholder image">
+		</div>
+	</div>
+	<br>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-md-7 order-md-2">
+		<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+		<div class="col-md-5 order-md-1">
+		<img class="featurette-image img-fluid mx-auto" src="images/gifteste.gif" alt="Generic placeholder image">
+		</div>
+	</div>
+	<br>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-md-7">
+		<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+			Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo
+			Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo
+		</p>
+		</div>
+		<div class="col-md-5">
+		<img class="featurette-image img-fluid mx-auto" src="images/joojs.jpg" alt="Generic placeholder image">
+		</div>
+	</div>
+	<br/><br/>
+
+	<!-- /END THE FEATURETTES -->
 </section>
 
+<a href="images/joojs.jpg" data-lightbox="roadtrip">Image #1</a>
+<a href="images/joojs.jpg" data-lightbox="roadtrip">Image #2</a>
+<a href="images/joojs.jpg" data-lightbox="roadtrip">Image #3</a>
+<a href="images/joojs.jpg" data-lightbox="roadtrip">Image #4</a>
+
+
+<!-- FOOTER -->
+<footer>
+	<div class="container">
+		<p>&copy Todos os direitos reservados - 2020</p>
+	</div>
+</footer>
 
 <!-- SCRIPTS -->
 <!-- CSS only -->
@@ -129,6 +146,7 @@
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
 <script src="js/jquery.js"></script>
 <script src="https://kit.fontawesome.com/270632f1ff.js" crossorigin="anonymous"></script>
+<script src="js/lightbox.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>
