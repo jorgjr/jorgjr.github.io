@@ -1,11 +1,5 @@
 @media screen and (max-width: 1024px){
-    .sec-card{
-        left: 20px;
-    }
-
-    .sobre-mim-desc,.right-side span{
-        margin-left: 20px;
-    }
+    /* nothing */
 }
 
 @media screen and (max-width: 900px){
@@ -40,6 +34,10 @@
         top: -5px;
     }
 
+    .left-side{
+        top: 15px;
+    }
+
 }
 
 @media screen and (max-width: 750px){
@@ -68,5 +66,15 @@
 
     .right-side span {
         margin-left: 113px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .left-side{
+        width: 300px;
+    }
+
+    .featurette-divider{
+        margin: 50px 0;
     }
 }

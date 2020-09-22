@@ -25,5 +25,4 @@ lightbox.option({
     'disableScrolling': true,
     'fitImagesInViewport': true,
     'positionFromTop': 110,
-
 })

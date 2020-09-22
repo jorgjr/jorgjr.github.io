@@ -177,7 +177,8 @@ background: var(--text-primary);
 
 .left-side {
 	position: relative;
-	width: 300px;
+	width: 400px;
+	top: -50px;
 }
 
 .left-side img {
@@ -265,11 +266,16 @@ background: var(--text-primary);
 	border: 1px solid var(--text-secondary);
 }
 
+.lead{
+	text-align: justify;
+}
+
 /*==========================================*/
 /* FOOTER */
 footer{
 	background-color: black;
 	padding: 5px 0;
+	margin-top: 50px !important;
 	/* border-top: 1px solid rgba(230,230,230,0.5); */
 }
 
