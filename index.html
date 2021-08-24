@@ -16,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="author" content="joomaciiel">
-	<meta name="keywords" content="portfolio,jorge almeida jr,jorge almeida jr,tcc">
+	<meta name="keywords" content="portfolio,jorge almeida jr,jorge almeida jr,tcc,python,topology optimization,matlab,finite element method">
 	<meta name="description" content="Personal page of Jorge Almeida Jr">
 	<!-- INDEX'GOOGLE -->
 	<meta name="googlebot" content="noindex" />
@@ -62,10 +62,11 @@
             </div>
             <span></span>
             <p class="sobre-mim-desc">Mechanical Engineer, 25 years old, passionate by engineering and programming. 
-	    Has developed a program in Python for linear static analysis using the Finite Element Method
-	    and Topology Optimization of 2D and 3D linear elastic structures.
+		    Has developed a program in Python for Topology Optimization of 2D and 3D domains of elastic structures 
+		    through a linear static analysis using the Finite Element Method. Currently is working on another program
+		    based on FEM, for displacement and stresess analysis of trusses and frames.
             <br><br>
-            jorge.alberto@rede.ulbra.br</p>
+            jorg.jr@hotmail.com</p>
 
             <div class="icons">
                 <a href="https://www.linkedin.com/in/jorge-almeida-junior/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
@@ -81,43 +82,53 @@
 
 	<!-- <hr class="featurette-divider"> -->
 	<br /><br />
-
 	<div class="row featurette">
 		<div class="col-md-7">
 		<h2 class="featurette-heading">Topology Optimization with Python (2D and 3D)</h2>
-		<p class="lead">The program developed in python was made using three packages: Gmsh, NumPy and SciPy. It was implemented the SIMP and BESO methods for topology optimization.
+		<p class="lead">The program was developed in python using three packages: Gmsh, NumPy and SciPy. It was implemented the SIMP and BESO methods for topology optimization.
 			The finite element analysis can be executed using only triangular and tetrahedral elements. The program is available at the GitHub of the author.
 			</p>
 		</div>
 		<div class="col-md-5">
-		
 		<!-- IMAGEM QUE APARECE NO SITE -->
 		<a href="images/python00.png" data-lightbox="galeria-1"><img class="featurette-image img-fluid mx-auto" src="images/python00.png" alt="Generic placeholder image"></a>
-
 		</div>
 	</div>
+	
 	<br>
-
 	<hr class="featurette-divider">
-
+	<div class="row featurette">
+		<div class="col-md-7 order-md-2">
+		<h2 class="featurette-heading">pyTruss - Trusses Analysis</h2>
+		<p class="lead">The program was built using the same scheme as the toPy, using basically the following packages: Gmsh, NumPy and Scipy, but aditionnaly to 
+			generate a report it was needed the usage of the matplotlib and Py2Pdf. The idea of the program is to verify the displacements and stresses of the trusses
+			in a 3D or 2D domain. After the simulation we can visually inspect the results. A .pdf file is generated at the end of the simulation
+			showing through graphics the data obtained.
+			</p>
+		</div>
+		<div class="col-md-5 order-md-1">
+		<!-- IMAGEM QUE APARECE NO SITE -->
+		<a href="images/2d01.png" data-lightbox="galeria-3"><img class="featurette-image img-fluid mx-auto" src="images/2d01.png" alt="Generic placeholder image"></a>
+		</div>
+	</div>
+	
+	<br>
+	<hr class="featurette-divider">
 	<div class="row featurette">
 		<div class="col-md-7 order-md-2">
 		<h2 class="featurette-heading">Topology Optimization with Matlab (2D)</h2>
 		<p class="lead">The GUI was built using AppDesigner, making the program more user-friendly. With the PDE Toolbox the computacional domain can be imported from
-			.stl files, and the boundary conditions can be added directly in the mesh generated.
+			.stl files, and the boundary conditions can be added directly in the generated mesh.
 			</p>
 		</div>
 		<div class="col-md-5 order-md-1">
-
 		<!-- IMAGEM QUE APARECE NO SITE -->
-		<a href="images/2d01.png" data-lightbox="galeria-2"><img class="featurette-image img-fluid mx-auto" src="images/2d01.png" alt="Generic placeholder image"></a>
-
+		<a href="images/2d01.png" data-lightbox="galeria-3"><img class="featurette-image img-fluid mx-auto" src="images/2d01.png" alt="Generic placeholder image"></a>
 		</div>
 	</div>
+	
 	<br>
-
 	<hr class="featurette-divider">
-
 	<div class="row featurette">
 		<div class="col-md-7">
 		<h2 class="featurette-heading">Topology Optimization with Matlab (3D)</h2>
@@ -126,10 +137,8 @@
 			</p>
 		</div>
 		<div class="col-md-5">
-
 		<!-- IMAGEM QUE APARECE NO SITE -->
-		<a href="images/3d01.png" data-lightbox="galeria-3"><img class="featurette-image img-fluid mx-auto" src="images/3d01.png" alt="Generic placeholder image"></a>
-
+		<a href="images/3d01.png" data-lightbox="galeria-4"><img class="featurette-image img-fluid mx-auto" src="images/3d01.png" alt="Generic placeholder image"></a>
 		</div>
 	</div>
 
@@ -145,10 +154,14 @@
 <a style="display: none;" href="images/python01.png" data-lightbox="galeria-1">Image #1</a>
 <a style="display: none;" href="images/python02.png" data-lightbox="galeria-1">Image #1</a>
 <a style="display: none;" href="images/python03.png" data-lightbox="galeria-1">Image #1</a>
-<a style="display: none;" href="images/2d02.png" data-lightbox="galeria-2">Image #1</a>
-<a style="display: none;" href="images/2d03.png" data-lightbox="galeria-2">Image #1</a>
-<a style="display: none;" href="images/3d02.png" data-lightbox="galeria-3">Image #1</a>
-<a style="display: none;" href="images/3d03.png" data-lightbox="galeria-3">Image #1</a>
+<a style="display: none;" href="images/pytruss01.png" data-lightbox="galeria-2">Image #1</a>
+<a style="display: none;" href="images/pytruss02.png" data-lightbox="galeria-2">Image #1</a>
+<a style="display: none;" href="images/pytruss03.png" data-lightbox="galeria-2">Image #1</a>
+<a style="display: none;" href="images/pytruss04.png" data-lightbox="galeria-2">Image #1</a>
+<a style="display: none;" href="images/2d02.png" data-lightbox="galeria-3">Image #1</a>
+<a style="display: none;" href="images/2d03.png" data-lightbox="galeria-3">Image #1</a>
+<a style="display: none;" href="images/3d02.png" data-lightbox="galeria-4">Image #1</a>
+<a style="display: none;" href="images/3d03.png" data-lightbox="galeria-4">Image #1</a>
 	
 <!-- FOOTER -->
 <footer>
